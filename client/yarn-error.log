@@ -1,0 +1,33 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add axios inquirer commander
+
+PATH: 
+  /home/lost/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:58:26)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "hardik khandelwal",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
